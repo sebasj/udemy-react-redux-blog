@@ -21,6 +21,6 @@ export function createPostAction(props) {
 
     return {
         type: CREATE_POST,
-        payolad: request
+        payload: request
     };
 }
