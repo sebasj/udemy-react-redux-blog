@@ -18,7 +18,6 @@ export function fetchPostsAction() {
 // lo usamos para gestionar el form de creacion del blog
 export function createPostAction(props) {
     const request = axios.post(`${ROOT_URL}/posts${API_KEY}`, props);
-
     return {
         type: CREATE_POST,
         payload: request
